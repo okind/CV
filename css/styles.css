@@ -38,7 +38,7 @@ hr {
 }
 
 a{
-  color: #11999E;
+  color: #EAF6F6;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -48,6 +48,20 @@ a:hover {
   color: #EAF6F6;
 }
 
+#university-link{
+  color:#66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1px 1px;
+    text-decoration: none;
+}
+#university-link:hover{
+  color: #EAF6F6;
+
+}
+
+.nav-item{
+  color:black;
+}
 .top-container {
   background-color: #E4F9F5;
   position: relative;
@@ -64,7 +78,17 @@ a:hover {
 }
 
 .skill-row {
-  width: 50%;
+  width: 35%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+tech-row {
+  width: 75%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.tool-header-row {
+  width: 65%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
@@ -74,7 +98,8 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
+  text-align: left;
+  width: 35%;
   margin: auto;
 }
 
@@ -88,26 +113,26 @@ a:hover {
   font-size: 0.75rem;
   padding: 20px 0;
 }
-
+/*
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 600px;
+  top: 100px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
+  left: 550px;
   bottom: 300px;
-}
+}*/
 
-.code-img {
+.left-img {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
 
-.chilli-img {
+.right-img {
   width: 25%;
   float: right;
   margin-left: 30px;

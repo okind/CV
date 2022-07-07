@@ -1,82 +1,120 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-    <title>🤔Olga's Personal Site</title>
-  </head>
 
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud">
-      <div class="title-text">
-        <h1>Olga Kindeeva.</h1>
-        <h2><span class="pro">This is my interactive resume.</h2>
+<head>
+  <meta charset="utf-8">
+  <title>🤔Olga's Personal Site</title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="top-container">
+    <div class="row">
+      <div class="col-lg-3">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud">
       </div>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
-      <img class="mountain" src="images/mountain.png" alt="mountain-img">
+      <div class="col-lg-6">
+        <div class="title-text">
+          <h1 class="my-name">Olga Kindeeva</h1>
+          <h3 class="my-description">my personal website</h3>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+      </div>
     </div>
-
-    <div class="middle-container">
-      <div class="profile">
-        <img src="images/circle Olga image.png" alt="Olga profile picture" height="200" width="200">
-        <h2>Hello.</h2>
-        <p class="intro">I am a Web Developer.</p>
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="mountain" src="images/mountain.png" alt="mountain-img">
       </div>
+    </div>
+  </div> 
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/circle Olga image.png" alt="Olga profile picture" height="200" width="200">
+      <h2>Hello.</h2>
+      <p class="intro">
+        Visionary leader, great administrator, creative, principled and mission-driven, growth and learning are central in my world view.</br>
+        Combine thoughtful deliberation with grand vision, motivate and inspire others.</br>
+        Imaginative and abstract thinker, can spot patterns and generate unexpected ideas keeping focus on their feasibility and sustainability.</br>
+        Care about values, justice and fairness.</br>
+        Like to serve people, I find energy and self-respect in helping others, attentive to human thoughts and emotions.</br>
+        Push myself on advancement.</br>
+        Strong analytical skills developed through work experience as software engineer and academic background in mathematics.</br>
+        As self-employed I thrived in a range of fields such as consulting, coaching, web software development and entrepreneurship.
+      </p>
+    </div>
     <hr>
-    <h3>Education</h3>
-    <p><em>Masters Degree in Applied Mathematics and Information Science at <strong><a href="https://ssau.ru/english">Samara University</a></strong> in Russia, 2002-2008</em></p>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="left-img" src="images/SoftwareDevSkill.png" alt="code-img">
+        <h3>Software Development</h3>
+        <p>I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+
+      </div>
+      <div class="skill-row">
+        <img class="right-img" src="images/DataAnalysisSkill.png" alt="dataanalysis-img">
+        <h3>Data Analysis</h3>
+        <p>Data clearing, analysis, SQL, visualization, web scrapping.</p>
+
+      </div>
+      <div class="skill-row">
+        <img class="left-img" src="images/ProjectManagementSkill.png" alt="code-img">
+        <h3>Project Management</h3>
+        <p>As a PM you need to let go of the instincts and allow yourself to envision a world where you have made the impossible happen.</p>
+
+      </div>
+      <div class="skill-row">
+        <img class="right-img" src="images/CoachingSkill.png" alt="coaching-img">
+        <h3>Coaching</h3>
+        <p>Astro psychology analysis and consultation. As a PM you need to let go of the instincts and allow yourself to envision a world where you have made the impossible happen.</p>
+      </div>
+    </div>
     <hr>
-    <h3>Work Experience</h3>
-    <table>
-    <tr>
-    <td>2012</td>
-    <td>Project Manager</td>
-    <td>Intermedia.Net</td>
-    </tr>
-    <tr>
-    <td>2010-2011</td>
-    <td>Process Coach</td>
-    <td>CQG Inc.</td>
-    </tr>
-    <tr>
-    <td>2007-2011</td>
-    <td>Full Stack Software Engineer<br>
-    <em>Created a web-site for an attorney</em></td>
-    <td>CQG Inc.</td>
-    </tr>
-    </table>
+    <div class="education">
+      <h2>Education</h2>
+    
+      <p>MS in Applied Mathematics and Information Science at <strong><a href="https://ssau.ru/english" id="university-link">Samara State Aerospace University</a></strong>, Russia, 2002-2008</p>
+    </div>
     <hr>
-    <h3>My Skills</h3>
-    <table>
-      <tr>
-        <td>HTML5</td>
-        <td>✰✰✰✰✰</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>✰✰✰✰</td>
-      </tr>
-    <tr>
-      <td>JavaScript</td>
-      <td>✰✰✰✰</td>
-    </tr>
-    </table>
+    <div class="tools">
+      <h2>Technologies</h2>
+      <div class="tech_row">
+        Programming languages: Java, Python, SQL, JavaScript
+        <!--<div class="col-lg-6">
+          Java, Python, SQL, JavaScript
+        </div>-->
+      </div>
+      <div class="tech-row">
+        Tools: Atom, VS Code, Git, NetBeans, MS Excel, MongoDB, SQL Server
+        <!--<div class="col-lg-6">
+        Atom, VS Code, Git, NetBeans, MS Excel, MongoDB, SQL Server
+        </div>-->
+      </div>
+    </div>  
+
     <hr>
     <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <p class="contact-message">Always happy to meet new people.</p>
-      <a class="btn" href="mailto:olgakindeeva@gmail.com">CONTACT ME</a>
+    <h2>Get In Touch</h2>
+    <p class="contact-message">Always happy to meet new people.</p>
+    <a class="btn" href="mailto:olgakindeeva@gmail.com">CONTACT ME</a>
     </div>
-</div>
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/okindeeva">LinkedIn</a>
-    <a class="footer-link" href="https://www.facebook.com/sunnycaliforniagirl/">Facebook</a>
-    <a class="footer-link" href="https://www.olgakindeeva.com/">Website</a>
-    <!--<p class="copyright">© 2018 Angela Yu @ The App Brewery.</p>-->
   </div>
 
-  </body>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/okindeeva">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/okind">GitHub</a>
+    <a class="footer-link" href="https://www.instagram.com/passionsoulgirl/">Instagram</a>
+    <p class="copyright">© 2018 Olga Kindeeva.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+
 </html>
